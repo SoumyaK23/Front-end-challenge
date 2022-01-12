@@ -15,7 +15,9 @@ This step took the longest (3h) as I have only done courses before and not reall
 ## Step 2: Understanding the code and expected output
 
 I went over existing submissions as well as understanding the many resources available online.
-The mock up gives a very clear idea of expected output and I mostly read around mplementation os search function
+The mock up gives a very clear idea of expected output and I mostly read around mplementation of search function
+
+This step took about an hour.
 
 ## Step 3: Task planning: 
 
@@ -33,3 +35,20 @@ So the priority is to get the <strong>design</strong> and <strong>search functio
   - Automated Tests - Are there any automated frontend tests?
   - Production-readiness - Is there proper error handling? Is the code ready to to put into production?
   - Future-readiness - Web workers? PWA? Client-side caching?
+
+## Step 4: Coding:
+
+I started with index.js and app.js and slowly added the Discover/index.js and fetcher.js (some time to read documentations on MoviesDB).
+Then added the components to get the basic search functionality right (2h)
+
+I noticed some issues and started working on them, notably adding checkboxes and filters
+
+## Step 5: Styling, Comments and cleaning code
+
+Once I came to the point where I felt the code was mostly done and alao that I had taken a lot of time, I started adding comments and checking style.
+This step also helped me go over the code and make sure I add error checking (1h)
+
+## Step 6: What I could not complete / Challenges
+
+Adding Genres. I got the genre_ids but could not map them to the genres.
+
