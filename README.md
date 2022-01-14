@@ -41,7 +41,7 @@ So the priority is to get the <strong>design</strong> and <strong>search functio
 I started with index.js and app.js and slowly added the Discover/index.js and fetcher.js (some time to read documentations on MoviesDB).
 Then added the components to get the basic search functionality right (2h)
 
-I noticed some issues and started working on them, notably adding checkboxes and filters
+I noticed some issues and started working on them, notably adding checkboxes and filters, sidebar navigation (1h)
 
 ## Step 5: Styling, Comments and cleaning code
 
@@ -50,5 +50,11 @@ This step also helped me go over the code and make sure I add error checking (1h
 
 ## Step 6: What I could not complete / Challenges
 
-Adding Genres. I got the genre_ids but could not map them to the genres.
+- Adding Genres. I got the genre_ids but could not map them to the genres.
+- Styling for mobile - did not have time but could have done much more
+- Adding pop up for movie items
+- Automated Tests
+- Accessibility in design
+- Comments and documentation
+
 
