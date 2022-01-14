@@ -1,60 +1,70 @@
-# Front-end-challenge
+# Getting Started with Create React App
 
-The challenge is to create a search page that looks like this mockup. Within the zip file, you will also find image resources that you can utilize.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The search page should enable the user to search for movies as keywords are typed into the search bar. Functionality for filtering does not need to be implemented, however the filter categories should still be expandable upon clicking. Other than the search functionality, no other functionality is expected.
+## Available Scripts
 
-Movie data can be queried via:
+In the project directory, you can run:
 
-theMovieDB
+### `npm start`
 
-## Step 1: Install dependencies, fix issues and get a page working using react
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-This step took the longest (3h) as I have only done courses before and not really used React locally. 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Step 2: Understanding the code and expected output
+### `npm test`
 
-I went over existing submissions as well as understanding the many resources available online.
-The mock up gives a very clear idea of expected output and I mostly read around mplementation of search function
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This step took about an hour.
+### `npm run build`
 
-## Step 3: Task planning: 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. The breakup of review is as follows - 
-  - Design: Were you able to translate the mockup into a web application that works well on various browsers and devices? Does the output match the mockup? This is the most important aspect. Weight: 50%
-  - Functionality: Does the search function work? Weight: 25%
-  - Code quality: Is the code easy to understand and maintain? Is the coding style consistent with the language's best practices? Do you demonstrate a good grasp of JavaScript, especially ES6? Weight: 15%
-  - Performance: Does the UI render quickly? Are the choice of libraries etc appropriate for the web page? Weight: 10%
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-So the priority is to get the <strong>design</strong> and <strong>search functionality</strong>. 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-2. Bonus points can also be achieved by - 
-  - Functionality - Do the results load instantly as the user types? If the API backend has rate limiting enforced, how do you implement the aforementioned while also taking rate limiting into account
-  - Documentation - Is the README well written? Are the commit messages clear?
-  - Automated Tests - Are there any automated frontend tests?
-  - Production-readiness - Is there proper error handling? Is the code ready to to put into production?
-  - Future-readiness - Web workers? PWA? Client-side caching?
+### `npm run eject`
 
-## Step 4: Coding:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-I started with index.js and app.js and slowly added the Discover/index.js and fetcher.js (some time to read documentations on MoviesDB).
-Then added the components to get the basic search functionality right (2h)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-I noticed some issues and started working on them, notably adding checkboxes and filters, sidebar navigation (1h)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Step 5: Styling, Comments and cleaning code
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Once I came to the point where I felt the code was mostly done and alao that I had taken a lot of time, I started adding comments and checking style.
-This step also helped me go over the code and make sure I add error checking (1h)
+## Learn More
 
-## Step 6: What I could not complete / Challenges
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Adding Genres. I got the genre_ids but could not map them to the genres.
-- Styling for mobile - did not have time but could have done much more
-- Adding pop up for movie items
-- Automated Tests
-- Accessibility in design
-- Comments and documentation
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
